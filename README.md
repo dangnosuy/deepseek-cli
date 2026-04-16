@@ -12,6 +12,10 @@ export DS_SESSION=''
 node ./server-simple.js
 ```
 
+- Tìm DS_SESSION bằng cách mở F12 > Application > Cookie > Trường ds_session_id bỏ vào DS_SESSION
+- Tìm DS_TOKEN bằng cách mở F12 > Application > Local Storage > Trường value trong userToken bỏ vào DS_TOKEN.
+- Export xong có thể chạy chương trình.
+
 **Terminal 2:**
 ```bash
 cd /home/dangnosuy/DeepSeek/deepseek-cli-mcp
